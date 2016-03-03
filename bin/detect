@@ -1,3 +1,4 @@
 #!/bin/sh
 
+echo 'U5 app'
 exit 0
