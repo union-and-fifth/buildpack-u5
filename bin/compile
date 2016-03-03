@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cd $1
+./setup-env
+
+cp -RL FPPublic/* .
+rm -rf FPAdmin
+rm -rf FPPublic
+rm -rf FPShared
