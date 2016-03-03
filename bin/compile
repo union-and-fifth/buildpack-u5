@@ -1,6 +1,7 @@
 #!/bin/sh
 
 cd $1
+chmod +x setup-env
 ./setup-env
 
 cp -RL U5Public/* .
