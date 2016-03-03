@@ -2,7 +2,7 @@
 
 cd $1
 chmod +x setup-env
-./setup-env
+bash setup-env
 
 cp -RL U5Public/* .
 rm -rf U5Admin
